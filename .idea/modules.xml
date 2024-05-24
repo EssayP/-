@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://D:/MinZuUniversity/基于J2EE的开发/MarryRing/MarryRing.iml" filepath="D:/MinZuUniversity/基于J2EE的开发/MarryRing/MarryRing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/brand-demo.iml" filepath="$PROJECT_DIR$/brand-demo.iml" />
+      <module fileurl="file://D:/MinZuUniversity/基于J2EE的开发/test/test.iml" filepath="D:/MinZuUniversity/基于J2EE的开发/test/test.iml" />
+    </modules>
+  </component>
+</project>

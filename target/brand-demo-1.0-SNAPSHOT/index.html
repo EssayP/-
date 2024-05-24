@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>益农商城</title>
+	<link rel="stylesheet" type="text/css" href="./style/reset.css">
+	<link rel="stylesheet" type="text/css" href="./style/common.css">
+	<link rel="stylesheet" type="text/css" href="./style/index.css">
+	<link rel="stylesheet" href="./src/swiper-bundle.min.css">
+	<style>
+		.swiper {
+			width: 900px;
+			height: 400px;
+		}
+
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+
+		.swiper-slide img {
+			display: block;
+			/* width: 100%;
+			height: 350px; */
+			width: 900px;
+			height: 400px;
+			object-fit: cover;
+		}
+		#tabs{
+			width: 400px;
+			height: 70px;
+			position: absolute;
+			right: 100px;
+			top: 40px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--header-->
+	<div id="header">
+		<div class="loginBar fl">
+			<span>欢迎来到益农&nbsp;请</span><a href="./login.html" class="login">注册登录</a><span class="dividing"></span>
+		</div>
+		<div class="memberLink fr">
+			<a href="./myCollection.html">收藏商品</a><span class="dividing"></span><a href="./myOrder.html">我的订单</a><span
+				class="dividing"></span><a href="./myInfo.html">会员中心</a><span class="dividing"></span>
+		</div>
+		<div class="headerMain">
+			<div class="logo fl">
+				<a href="#"><img src="./images/logo_final.jpg" width="50px"><b>益农商城</b></a>
+			</div>
+			<div class="search fl">
+				<div class="searchForm">
+					<input type="text" name="searchText" placeholder="蔬菜、水果、香蕉" class="searchText">
+					<input type="button" class="searchBtn" value="搜索">
+				</div>
+				<div class="hotKeywords">
+					<span class="hot">热门搜索：</span>
+					<a href="#">奇异果</a>
+					<a href="#">苹果</a>
+					<a href="#">芒果</a>
+					<a href="#">香蕉</a>
+					<a href="#">榴莲</a>
+					<a href="#">西瓜</a>
+					<a href="#">梨</a>
+				</div>
+			</div>
+			<img src="./images/tabs.png" id="tabs" alt="">
+		</div>
+	</div>
+	<!--nav start-->
+	<div id="nav">
+		<ul class="navList fl">
+			<li class="fl allList list">
+				<a href="javascript:void(0)" class="listA">
+					快捷跳转
+					<ul class="detailsList">
+
+					</ul>
+				</a>
+			</li>
+			<li class="fl otherList list"><a href="./homepage.html" class="listA">首页</a></li>
+			<li class="fl otherList list"><a href="/brand-demo/selectAllZiXunServlet" class="listA">资讯</a></li>
+			<li class="fl otherList list"><a href="/brand-demo/selectAllKeJiServlet" class="listA">科技</a></li>
+			<li class="fl otherList list"><a href="https://graph.baidu.com/pcpage/index?tpl_from=pc" class="listA">服务</a></li>
+		</ul>
+
+<!--		<div class="cartBar fl">-->
+<!--			<span id="hoverCart">-->
+<!--				<span class="cartIcon">&#xe015;</span>-->
+<!--				<span class="cartText">购物车中有</span>-->
+<!--				<strong class="cartNumber">23</strong>-->
+<!--				<span class="cartText">商品</span>-->
+<!--				<div id="cartGoods">-->
+<!--					<ul>-->
+<!--						<li>-->
+
+<!--					</ul>-->
+<!--				</div>-->
+<!--			</span>-->
+<!--			<a href="#" class="cartGo">去结算</a>-->
+<!--		</div>-->
+	</div>
+	<!-- 轮播图 -->
+	<!-- <div id="slider"> -->
+	<!-- <a href="#"><img src="./images/img01.png" alt=""></a>
+		<a href="#"><img src="./image/slider/bigSlider_2.jpg" alt=""></a>
+		<a href="#"><img src="./image/slider/bigSlider_3.jpg" alt=""></a>
+		<a href="#"><img src="./image/slider/bigSlider_4.jpg" alt=""></a>
+		<a href="#"><img src="./image/slider/bigSlider_5.jpg" alt=""></a>
+		<ul class="imgBtn">
+			<li class="fl"></li>
+			<li class="fl"></li>
+			<li class="fl"></li>
+			<li class="fl"></li>
+			<li class="fl"></li>
+		</ul> -->
+
+	<div class="swiper mySwiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><a href="http://cast.net.cn/kj/kjyjk/320525.html"><img
+						src="image/slider/bigSlider_1.jpg" alt=""></a></div>
+			<div class="swiper-slide"><a href="http://cast.net.cn/kj/cgtj/324137.html"><img
+						src="image/slider/bigSlider_2.jpg" alt=""></a></div>
+			<div class="swiper-slide"><a href="http://cast.net.cn/kj/cgtj/324137.html"><img
+						src="image/slider/bigSlider_3.jpg" alt=""></a></div>
+			<div class="swiper-slide"><a href="http://cast.net.cn/kj/cgtj/324137.html"><img
+						src="image/slider/bigSlider_4.jpg" alt=""></a></div>
+			<div class="swiper-slide"><a href="http://cast.net.cn/kj/cgtj/324137.html"><img
+						src="image/slider/bigSlider_5.jpg" alt=""></a></div>
+
+		</div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-pagination"></div>
+	</div>
+	<!-- </div> -->
+
+	<!--discount start-->
+	<div id="discount">
+		<div class="offToday discountAll fl">
+			<div class="discountTop">
+				<strong>今日半价</strong>
+				<small>50% OFF TODAY</small>
+			</div>
+			<div class="discoutContent">
+				<ul class="discountContentUl">
+					<li class="discountCont_1">
+						<div class="discountInfo fl">
+							<p class="discountDescription">密云圣农-现摘花菜</p>
+							<p class="discountNow"><span class="priceName">今日半价：</span><span
+									class="discountPrice">￥16</span></p>
+							<p class="discountOld"><span
+									class="priceName">原&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：</span><span
+									class="discountPrice oldPrice">￥32</span></p>
+						</div>
+						<div class="discountImg fl"><img src="./images/img01.png"></div>
+					</li>
+					<li class="discountCont_2">
+						<div class="discountInfo fl">
+							<p class="discountDescription">密云圣农-现摘花菜</p>
+							<p class="discountNow"><span class="priceName">今日半价：</span><span
+									class="discountPrice">￥16</span></p>
+							<p class="discountOld"><span
+									class="priceName">原&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：</span><span
+									class="discountPrice oldPrice">￥32</span></p>
+						</div>
+						<div class="discountImg fl"><img src="./image/goods/discount_3.jpg"></div>
+					</li>
+					<li class="discountCont_3">
+						<div class="discountInfo fl">
+							<p class="discountDescription">密云圣农-现摘花菜</p>
+							<p class="discountNow"><span class="priceName">今日半价：</span><span
+									class="discountPrice">￥16</span></p>
+							<p class="discountOld"><span
+									class="priceName">原&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;价：</span><span
+									class="discountPrice oldPrice">￥32</span></p>
+						</div>
+						<div class="discountImg fl"><img src="./image/goods/discount_2.jpg"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="recommend discountAll fl">
+			<div class="discountTop">
+				<strong>每日推荐</strong>
+				<small>RECOMMENDATION</small>
+			</div>
+			<div class="recommendContent">
+				<div class="recommendContentList">
+					<div class="fl recommendContentListCont">
+						<p>十记海南芒果5斤 大青芒果新鲜水果mango单果700-1200g 金煌芒 果</p>
+						<p class="recommendPrice"><span>￥20.00</span><span></span></p>
+					</div>
+					<div class="fl recommendContentListImg">
+						<div><a href="productDetail.html"><img src="./image/goods/detailMango1_800_1.jpg"></a></div>
+					</div>
+				</div>
+				<div class="recommendContentList">
+					<div class="fl recommendContentListCont">
+						<p>十记海南芒果5斤 大青芒果新鲜水果mango单果700-1200g 金煌芒 果</p>
+						<p class="recommendPrice"><span>￥20.00</span><span></span></p>
+					</div>
+					<div class="fl recommendContentListImg">
+						<div><a href="productDetail.html"><img src="./image/goods/detailMango1_800_1.jpg"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="seckill discountAll fl">
+			<div class="discountTop">
+				<strong>天天秒杀</strong>
+				<small>EVERY DAY SPIKE</small>
+			</div>
+			<div class="seckillContent">
+				<div class="seckillContentList">
+					<div class="fl seckillContentListCont">
+						<p>十记海南芒果5斤 大青芒果新鲜水果mango单果700-1200g 金煌芒 果</p>
+						<p class="seckillPrice"><span>￥1.00</span><span></span></p>
+					</div>
+					<div class="fl seckillContentListImg">
+						<div><a href="productDetail.html"><img src="./image/goods/detailMango1_800_1.jpg"></a></div>
+					</div>
+				</div>
+				<div class="seckillContentList">
+					<div class="fl seckillContentListCont">
+						<p>十记海南芒果5斤 大青芒果新鲜水果mango单果700-1200g 金煌芒 果</p>
+						<p class="recommendPrice"><span>￥1.00</span><span></span></p>
+					</div>
+					<div class="fl seckillContentListImg">
+						<div><a href="productDetail.html"><img src="./image/goods/detailMango1_800_1.jpg"></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="guarantee"></div>
+	<div id="footer">
+		<div class="footerTop clear">
+			<ul class="fl">
+				<li class="liFirst">关于我们</li>
+				<a href="">
+					<li>人才招聘</li>
+				</a>
+			</ul>
+			<ul class="fl">
+				<li class="liFirst">客户服务</li>
+				<a href="">
+					<li>联系我们</li>
+				</a>
+			</ul>
+			<ul class="fl">
+				<li class="liFirst">帮助中心</li>
+				<a href="">
+					<li>配送方式</li>
+				</a>
+				<a href="">
+					<li>支付方式</li>
+				</a>
+				<a href="">
+					<li>售后服务</li>
+				</a>
+			</ul>
+			<ul class="fl">
+				<li class="liFirst">会员中心</li>
+				<a href="">
+					<li>收藏列表</li>
+				</a>
+				<a href="">
+					<li>会员中心</li>
+				</a>
+				<a href="">
+					<li>历史订单</li>
+				</a>
+			</ul>
+		</div>
+		<div class="footerBottom">
+			<span>Copyright 2023益农 www.yinong.com Inc. AllRights Reserved. </span>
+		</div>
+	</div>
+</body>
+<script src="./src/swiper-bundle.min.js"></script>
+<!-- <script type="text/javascript" data-main="./js/index" src="./js/require.js"></script> -->
+<script>
+	var swiper = new Swiper(".mySwiper", {
+		spaceBetween: 10,
+		autoplay: {
+			delay: 2000, //自动切换的时间间隔，单位ms
+			disableOnInteraction: false //用户操作swiper之后，是否禁止autoplay
+		},
+		cssMode: true,
+		navigation: {
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+		mousewheel: true,
+		keyboard: true,
+	});
+</script>
+
+
+</html>

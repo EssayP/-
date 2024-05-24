@@ -1,0 +1,71 @@
+video {
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    /* position: fixed; */
+}
+
+h1 {
+    position: fixed;
+    top: 20px;
+    font-size: 230px;
+    color: rgba(5, 5, 5, 0.5);
+    font-family: cursive;
+    left: 35%;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(248, 243, 243, 0.367);
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-weight: lighter;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.529);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    top: 500px;
+}
+
+.navs {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.329);
+    transition: 1s;
+    border-radius: 30px;
+    margin-left: 150px;
+}
+
+.navs:hover {
+    background-color: rgba(255, 255, 255, 0.529);
+
+    color: rgba(11, 11, 11, 0.922);
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    position: relative;
+    left: 20px;
+    line-height: 200px;
+    font-family: cursive;
+    font-size: 80px;
+    color: rgba(42, 39, 39, 0.367);
+}

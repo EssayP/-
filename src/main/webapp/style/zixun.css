@@ -1,0 +1,123 @@
+.selfdefine {
+    height: 40px;
+}
+
+/*.selfdefine2 {*/
+/*    padding-left: 40px;*/
+/*    padding-top: 5px;*/
+/*}*/
+
+#head {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    color: azure;
+    font-size: 23px;
+}
+
+#head:hover {
+    color: rgb(89, 147, 169);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*修改container的最大宽度为1280*/
+@media screen and (min-width:1280px) {
+    .container {
+        width: 1280px;
+    }
+}
+
+header {
+    padding-left: 0 !important;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav {
+    background-color: rgb(60, 82, 110);
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.nav a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav a:hover {
+    background-color: rgb(125, 139, 157);
+}
+
+.news li {
+    float: left;
+    width: 25%;
+    height: 125px;
+    padding-right: 10px;
+}
+
+.news li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.news li:nth-child(1) {
+    width: 50%;
+    height: 250px;
+    padding-right: 10px;
+}
+
+.news li:nth-child(1) p {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+.news li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.news li a p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.publish div {
+    border-bottom: 1px solid #ccc;
+}
+
+.publish img {
+    width: 100%;
+    padding-top: 30px;
+    border-bottom: 0px;
+}
+
+.aside a img {
+    width: 100%;
+}

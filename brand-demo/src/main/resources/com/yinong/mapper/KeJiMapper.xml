@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yinong.mapper.KeJiMapper">
+
+
+
+    <resultMap id="KeJiResultMap" type="KeJi">
+        <result column="INfor_header" property="header"></result>
+        <result column="Infor_content" property="content"></result>
+        <result column="Infor_resource" property="resource"></result>
+        <result column="Infor_Create_time" property="time"></result>
+        <result column="Infor_image" property="imgs"></result>
+        <result column="Infor_part" property="part"></result>
+    </resultMap>
+</mapper>

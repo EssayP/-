@@ -1,0 +1,16 @@
+#back {
+    border-radius: 30px;
+    border: none;
+    width: 80px;
+    height: 30px;
+    background-color: rgba(63, 58, 58, 0.429);
+
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-weight: lighter;
+}
+
+#back:hover {
+    background-color: rgba(152, 151, 151, 0.567);
+}

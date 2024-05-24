@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>益农</title>
+    <style>
+        * {
+            text-decoration: none;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 200vh;
+            overflow-x: hidden;
+        }
+
+        .background {
+            background-image: url("./images/sunrise.webp");
+            background-size: cover;
+            background-position: 50% 50%;
+            height: 200vh;
+            font: 900 39rem '';
+            line-height: 130vh;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .background::before {
+            content: '';
+            background-size: cover;
+            background-image: inherit;
+            background-position: 50% 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -99;
+        }
+
+        h1 {
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            letter-spacing: 10px;
+            color: #fff;
+        }
+
+        h2 {
+            position: absolute;
+            letter-spacing: 2px;
+            top: 120vh;
+            width: 55%;
+            color: #fff;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 30px;
+            padding-bottom: 45px;
+            background-color: rgba(0, 0, 0, .3);
+        }
+
+
+        .btn_group {
+            border: 5px solid rgb(191, 184, 199);
+            width: 500px;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+        }
+
+        .btn {
+            border: #fff;
+            background-color: rgba(232, 198, 198, 0.211);
+            font-size: larger;
+            width: 23%;
+            height: 45px;
+            padding: 0;
+            margin-left: 8px;
+            transition: .7s;
+        }
+
+        .btn:hover {
+            background-color: rgb(179, 128, 80);
+        }
+
+        a {
+            color: black;
+        }
+
+
+        #loging_home {
+            color: rgb(144, 141, 149);
+            font-weight: lighter;
+            font-size: 17px;
+            position: absolute;
+            right: 20px;
+            bottom: 10px;
+        }
+
+        #loging_home:hover {
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Group 7<br />@Copyright</h1>
+    <div class="background"><span>益农</span></div>
+    <h2>
+        <p>益农是一个主要面对农民群体的农业网站. 旨在用简洁的设计增强使用体验, 新增AI识别, 为您的农业之旅保驾护航.</p>
+        <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default" id="zixun">资讯</button>
+            <button type="button" class="btn btn-default" id="keji">科技</button>
+            <button type="button" class="btn btn-default"><a
+                    href="https://graph.baidu.com/pcpage/index?tpl_from=pc">服务</a></button>
+            <button type="button" class="btn btn-default" id="luntan">论坛</button>
+        </div>
+        <a href="login.jsp" id="loging_home">>>去登录</a>
+    </h2>
+    <!-- <div id="footer"></div> -->
+    <script>
+        const background = document.querySelector(".background")
+
+        document.addEventListener('scroll', () => {
+            const scrollY = window.scrollY
+
+            if (scrollY !== 0) {
+                background.style.backgroundPosition = `calc(50% + ${scrollY}px) calc(50% + ${scrollY}px)`
+            } else {
+                background.style.backgroundPosition = ''
+            }
+        })
+        document.getElementById("zixun").onclick=function () {
+            location.href="/brand-demo/selectAllZiXunServlet";
+        }
+        document.getElementById("keji").onclick=function () {
+            location.href="/brand-demo/selectAllKeJiServlet";
+        }
+        document.getElementById("luntan").onclick=function () {
+            location.href="/brand-demo/luntan.jsp";
+        }
+    </script>
+
+
+</body>
+
+</html>

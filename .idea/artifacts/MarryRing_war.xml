@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MarryRing:war">
+    <output-path>D:/MinZuUniversity/基于J2EE的开发/MarryRing/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MarryRing</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="MarryRing-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MarryRing:war exploded" />
+    </root>
+  </artifact>
+</component>

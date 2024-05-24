@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/MinZuUniversity/arjgcdl/javaweb/study/ajax-demo2" />
+    <file type="web" url="file://D:/MinZuUniversity/arjgcdl/javaweb/study/brand_demo" />
+    <file type="web" url="file://D:/MinZuUniversity/基于J2EE的开发/MarryRing" />
+    <file type="web" url="file://D:/MinZuUniversity/基于J2EE的开发/test" />
+    <file type="web" url="file://E:/brand-case" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://E:/yinongTest/brand_demo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="D:/MinZuUniversity/基于J2EE的开发/MarryRing/pom.xml" />
+        <option value="D:/MinZuUniversity/基于J2EE的开发/test/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

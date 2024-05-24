@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="brand-demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59bcd9aa-b315-475e-8cec-105139f8372e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="XML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main/webapp" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\develop\software\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2M30Gc9dtpw2eKbPLzoPek1yKlJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pper.pojo" />
+      <recent name="com.pper.mapper" />
+      <recent name="com.pper.util" />
+      <recent name="com.pper.service" />
+      <recent name="com.yinong.web.servlet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MinZuUniversity\基于J2EE的开发\test\src\main\resources" />
+      <recent name="D:\MinZuUniversity\基于J2EE的开发\test\src\main\webapp" />
+      <recent name="D:\MinZuUniversity\基于J2EE的开发\MarryRing\src\main\resources\com.pper.mapper" />
+      <recent name="D:\MinZuUniversity\基于J2EE的开发\MarryRing\src\main\resources" />
+      <recent name="D:\MinZuUniversity\基于J2EE的开发\MarryRing\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="brand_demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="brand_demo" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59bcd9aa-b315-475e-8cec-105139f8372e" name="Default Changelist" comment="" />
+      <created>1676980863115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676980863115</updated>
+      <workItem from="1676980866113" duration="2542000" />
+      <workItem from="1676983703771" duration="5364000" />
+      <workItem from="1677047417164" duration="814000" />
+      <workItem from="1677049176038" duration="21356000" />
+      <workItem from="1677227233086" duration="1317000" />
+      <workItem from="1677233261607" duration="1803000" />
+      <workItem from="1677239450278" duration="11659000" />
+      <workItem from="1677303525437" duration="19821000" />
+      <workItem from="1677338635091" duration="581000" />
+      <workItem from="1677416347457" duration="7000" />
+      <workItem from="1677462381127" duration="425000" />
+      <workItem from="1677581559482" duration="3017000" />
+      <workItem from="1677747744869" duration="198000" />
+      <workItem from="1678012062297" duration="5813000" />
+      <workItem from="1678024819833" duration="1037000" />
+      <workItem from="1678025875091" duration="4020000" />
+      <workItem from="1678116353097" duration="922000" />
+      <workItem from="1678278391927" duration="179000" />
+      <workItem from="1678452562210" duration="3758000" />
+      <workItem from="1678590693958" duration="3431000" />
+      <workItem from="1678608866087" duration="2043000" />
+      <workItem from="1678890875417" duration="459000" />
+      <workItem from="1678891356665" duration="8415000" />
+      <workItem from="1678952568312" duration="25000" />
+      <workItem from="1680967675691" duration="1777000" />
+      <workItem from="1683791609785" duration="1250000" />
+      <workItem from="1702620929074" duration="14664000" />
+      <workItem from="1702709775306" duration="633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="340" y="105" key="#Project_Structure" timestamp="1702642263661">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="340" y="105" key="#Project_Structure/0.0.1493.885@0.0.1493.885" timestamp="1702642263661" />
+    <state x="202" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1702622778113">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="202" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1493.885@0.0.1493.885" timestamp="1702622778113" />
+    <state x="553" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1702628972530">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="553" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1493.885@0.0.1493.885" timestamp="1702628972530" />
+    <state x="368" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1702631809255">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="368" y="371" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1493.885@0.0.1493.885" timestamp="1702631809255" />
+    <state x="478" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1702640253080">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="478" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1493.885@0.0.1493.885" timestamp="1702640253080" />
+    <state x="528" y="201" key="FileChooserDialogImpl" timestamp="1702641267259">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="528" y="201" key="FileChooserDialogImpl/0.0.1493.885@0.0.1493.885" timestamp="1702641267259" />
+    <state width="1450" height="408" key="GridCell.Tab.0.bottom" timestamp="1702643086871">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state width="1450" height="408" key="GridCell.Tab.0.bottom/0.0.1493.885@0.0.1493.885" timestamp="1702643086871" />
+    <state width="1450" height="408" key="GridCell.Tab.0.center" timestamp="1702643086871">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state width="1450" height="408" key="GridCell.Tab.0.center/0.0.1493.885@0.0.1493.885" timestamp="1702643086871" />
+    <state width="1450" height="408" key="GridCell.Tab.0.left" timestamp="1702643086871">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state width="1450" height="408" key="GridCell.Tab.0.left/0.0.1493.885@0.0.1493.885" timestamp="1702643086871" />
+    <state width="1450" height="408" key="GridCell.Tab.0.right" timestamp="1702643086871">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state width="1450" height="408" key="GridCell.Tab.0.right/0.0.1493.885@0.0.1493.885" timestamp="1702643086871" />
+    <state x="228" y="21" key="SettingsEditor" timestamp="1702641990169">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="228" y="21" key="SettingsEditor/0.0.1493.885@0.0.1493.885" timestamp="1702641990169" />
+    <state x="135" y="59" key="new project wizard" timestamp="1702641981960">
+      <screen x="0" y="0" width="1493" height="885" />
+    </state>
+    <state x="135" y="59" key="new project wizard/0.0.1493.885@0.0.1493.885" timestamp="1702641981960" />
+  </component>
+</project>

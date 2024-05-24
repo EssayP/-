@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>个人中心</title>
+	<link rel="stylesheet" type="text/css" href="./style/reset.css">
+	<link rel="stylesheet" type="text/css" href="./style/common.css">
+	<link rel="stylesheet" type="text/css" href="./style/personCenterCommon.css">
+	<link rel="stylesheet" type="text/css" href="./style/myInfo.css">
+</head>
+
+<body scroll="no">
+	<!--header-->
+	<div id="header">
+		<div class="loginBar fl">
+			<span>欢迎来到益农&nbsp;请</span><a href="./login.html" class="login">注册/登录</a><span class="dividing"></span>
+		</div>
+		<div class="memberLink fr">
+			<a href="./myCollection.html">收藏商品</a><span class="dividing"></span><a href="./myOrder.html">我的订单</a><span
+				class="dividing"></span><a href="./myInfo.html">会员中心</a><span class="dividing"></span>
+		</div>
+		<div class="headerMain">
+			<div class="logo fl">
+				<a href="#"><img src="./images/logo_final.jpg" width="50px"><b>益农商城</b></a>
+			</div>
+			<div class="search fl">
+				<div class="searchForm">
+					<input type="text" name="searchText" placeholder="蔬菜、水果、香蕉" class="searchText">
+					<input type="button" class="searchBtn" value="搜索">
+				</div>
+				<div class="hotKeywords">
+					<span class="hot">热门搜索：</span>
+					<a href="#">奇异果</a>
+					<a href="#">苹果</a>
+					<a href="#">芒果</a>
+					<a href="#">香蕉</a>
+					<a href="#">榴莲</a>
+					<a href="#">西瓜</a>
+					<a href="#">梨</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--nav start-->
+	<div id="nav">
+		<ul class="navList fl">
+			<li class="fl allList list"><a href="#" class="listA">快捷跳转</a></li>
+			<li class="fl otherList list"><a href="./homepage.html" class="listA">首页</a></li>
+			<li class="fl otherList list"><a href="/brand-demo/selectAllZiXunServlet" class="listA">资讯</a></li>
+			<li class="fl otherList list"><a href="/brand-demo/selectAllKeJiServlet" class="listA">科技</a></li>
+			<li class="fl otherList list"><a href="./fuwu.html" class="listA">服务</a></li>
+		</ul>
+	</div>
+	<!--personCenter start-->
+	<div id="personCenter">
+		<h2>个人中心</h2>
+		<div class="personContent clear">
+			<div class="fl personContentLeft">
+				<ul>
+					<li class="nowTitle"><a href="javscript:void(0)">我的信息</a></li>
+					<li><a href="./myOrder.html">我的订单</a></li>
+					<li><a href="./myCollection.html">我的收藏</a></li>
+					<li><a href="./myAddress.html">收货地址</a></li>
+					<li><a href="./myChangePass.html">修改密码</a></li>
+					<li><a href="./myOption.html">意见建议</a></li>
+				</ul>
+			</div>
+			<div class="fl personContentRight">
+				<h3><span class="spanIcon">&#xe08a;</span>个人信息</h3>
+				<p class="tips">亲，可以在这里修改密码和地址哟！</p>
+				<ul class="detailInfo">
+					<li><span>用户名：</span><span>雨季</span></li>
+					<li><span>密&nbsp;&nbsp;&nbsp;码：</span><input type="password" value="123456" readonly="true"><a
+							href="#">修改密码</a></li>
+					<li><span>邮&nbsp;&nbsp;&nbsp;箱：</span><span>150064674563@qq.com</span></li>
+					<li><span>手&nbsp;&nbsp;&nbsp;机：</span><span>雨季</span></li>
+					<li><span>地&nbsp;&nbsp;&nbsp;址：</span><span>黑龙江省哈尔滨市南岗区学府路74号黑龙江大学B区6栋</span><a href="#">修改地址</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--footer start-->
+	<div id="guarantee"></div>
+	<div id="footer">
+		<div class="footerTop clear">
+			<ul class="fl">
+				<li class="liFirst">关于我们</li>
+				<a href="">
+					<li>人才招聘</li>
+				</a>
+			</ul>
+			<ul class="fl">
+				<li class="liFirst">客户服务</li>
+				<a href="">
+					<li>联系我们</li>
+				</a>
+			</ul>
+			<ul class="fl">
+				<li class="liFirst">帮助中心</li>
+				<a href="">
+					<li>配送方式</li>
+				</a>
+				<a href="">
+					<li>支付方式</li>
+				</a>
+				<a href="">
+					<li>售后服务</li>
+				</a>
+			</ul>
+			<ul class="fl">
+				<li class="liFirst">会员中心</li>
+				<a href="">
+					<li>收藏列表</li>
+				</a>
+				<a href="">
+					<li>会员中心</li>
+				</a>
+				<a href="">
+					<li>历史订单</li>
+				</a>
+			</ul>
+		</div>
+		<div class="footerBottom">
+			<span>Copyright 2023益农 www.yinong.com Inc. AllRights Reserved. </span>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" data-main="./js/myInfo" src="./js/require.js"></script>
+
+</html>
